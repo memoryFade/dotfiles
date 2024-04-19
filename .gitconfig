@@ -1,0 +1,43 @@
+[user]
+    name  = micro bubbles
+    email = archprotocal@gmail.com
+# [includeIf "gitdir:~/develop/personal/"]
+# path = ./.gitconfig-personal
+# [includeIf "gitdir:~/develop/github/"]
+# path = ./.gitconfig-personal
+
+[includeIf "gitdir:~/develop/work/"]
+    path = /Users/panfly/develop/personal/dotfiles/.gitconfig-work
+# [core]
+#         autocrlf = input
+#         excludesfile = /Users/sunjinshan/.gitignore_global
+# [http]
+#         postBuffer = 524288000
+#         lowSpeedLimit = 0
+#         lowSpeedTime = 999999
+# [pager]
+#         branch = false
+#         tag = false
+# [difftool "sourcetree"]
+#         cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+#         path =
+# [mergetool "sourcetree"]
+#         cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+#         trustExitCode = true
+# [filter "lfs"]
+#         clean = git-lfs clean -- %f
+#         smudge = git-lfs smudge -- %f
+#         process = git-lfs filter-process
+#         required = true
+# [pull]
+#         rebase = false
+# [init]
+#         defaultBranch = master
+# [transfer]
+#         fsckobjects = true
+#         hideRefs = duplicate
+# [alias]
+#         b = branch
+#         s = status
+#         l = pull
+#         p = push

@@ -41,3 +41,5 @@
 #         s = status
 #         l = pull
 #         p = push
+[core]
+	autocrlf = input
